@@ -30,7 +30,7 @@ jobs:
       - name: Run tests
         run: pytest test.py
 
-    build:
+  build:
     needs: test
     runs-on: ubuntu-latest
 
